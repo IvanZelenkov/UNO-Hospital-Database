@@ -1,5 +1,4 @@
 # CSCI 4125/5125 Course Project
-<h2>Spring 2022<h2/>
 <h2>Project Description<h2/>
 
 # Introduction. 
