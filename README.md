@@ -3,9 +3,8 @@
 
 # <h3>Introduction<h3/> 
 This project contains a database for a hospital. I will work to develop this database throughout the semester. 
-<br>
 
-# Objective. 
+# <h3>Objective<h3/> 
 I will build a relational database starting from a written set of business requirements. I will write SQL queries and Java applications to interact with Oracle database. 
 <br>
 
