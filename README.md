@@ -8,14 +8,14 @@ I will build a relational database starting from a written set of business requi
 # <h3>Phases<h3/>  
 There is a total of six phases in this project. Each phase will focus on a different course topic. Phase topics are as follows:
 <br>
-	1. E-R Modeling 
-	<br>
-	2. E-R Mapping
-	<br>
-	3. Introductory SQL
-	<br>
-	4. Intermediate SQL
-	<br>
-	5. PL/SQL
-	<br>
-	6. JDBC & Normalization 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. E-R Modeling 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. E-R Mapping
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Introductory SQL
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Intermediate SQL
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. PL/SQL
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. JDBC & Normalization 
