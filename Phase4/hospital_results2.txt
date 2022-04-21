@@ -1,0 +1,129 @@
+1. Retrieve the names of all physicians who specialize
+in dermatology and have worked more than 22 hours.
++-------------+
+|PHYSICIANNAME|
++-------------+
+|Tom Hanks    |
+|Will Smith   |
+|Chris Evans  |
++-------------+
+
+2. Find the names of all nurses who are directly supervised by Chris Summa.
+Note: You must use the name. Do not hardcode the nurse ID.
++----------+
+|NURSENAME |
++----------+
+|Ben Samuel|
+|Sam Hoyt  |
++----------+
+
+3. For each physician specialty, list the specialty, the number of physicians
+that have that specialty, and the total number of hours worked by those physicians.
++-----------------+------------------+--------------+
+|SPECIALTY        |NUMBEROFPHYSICIANS|TOTALWORKHOURS|
++-----------------+------------------+--------------+
+|Anesthesiology   |3                 |72            |
+|Internal medicine|2                 |44            |
+|Dermatology      |3                 |68            |
+|Family Medicine  |2                 |50            |
+|Surgery          |2                 |43            |
++-----------------+------------------+--------------+
+
+4. Retrieve the names of all nurses who monitor at least one bed. Make sure to remove duplicates.
++------------+
+|NURSENAME   |
++------------+
+|Chris Summa |
+|Tamjid Hoque|
+|James Wagner|
+|Ben Samuel  |
++------------+
+
+5. Retrieve the names of all nurses who do not monitor any beds.
++--------------+
+|NURSENAME     |
++--------------+
+|Ted Holmberg  |
+|John Nicklow  |
+|Vassil Roussev|
+|Matt Toups    |
+|Hyunguk Yoo   |
+|Sam Hoyt      |
++--------------+
+
+6. Retrieve the names of all nurses whose supervisor's supervisor has N01 for their ID.
++------------+
+|NURSENAME   |
++------------+
+|James Wagner|
+|Ben Samuel  |
+|Sam Hoyt    |
+|Ted Holmberg|
+|Matt Toups  |
+|Hyunguk Yoo |
++------------+
+
+7. For each physician specialty, find the total number of patients whose physician has that specialty.
++-----------------+------------------+
+|SPECIALTY        |NUMBER_OF_PATIENTS|
++-----------------+------------------+
+|Anesthesiology   |4                 |
+|Dermatology      |3                 |
+|Internal medicine|2                 |
+|Family Medicine  |2                 |
+|Surgery          |2                 |
++-----------------+------------------+
+
+8. Find the average salary for all nurses who monitor at least 2 beds.
++--------------+
+|AVERAGE_SALARY|
++--------------+
+|83500         |
++--------------+
+
+9. Find the patient assigned to a bed that is monitored by the nurse with the lowest salary.
++-----------+
+|PATIENTNAME|
++-----------+
+|Rihanna    |
++-----------+
+
+10. Retrieve the average age of patients that are assigned to a bed.
++-----------+
+|AVERAGE_AGE|
++-----------+
+|31.86      |
++-----------+
+
+11. Find physicians whose specialty consists of exactly 2 words.
+For example, the query should return records for "General Practice", but not "Oncology".
+Also, the specialty should be properly capitalized (both first and last word start with
+an upper-case letter and rest of the word is lower-case).
+For example, the query should return results for "General Practice” but not "general Practice".
++---------------+
+|SPECIALTY      |
++---------------+
+|Family Medicine|
+|Family Medicine|
++---------------+
+
+12. Find all beds that have a room number that end in an odd number (e.g., return 101, but not 102).
++---------+----------+-------------------+-------------+-------+
+|BEDNUMBER|ROOMNUMBER|UNIT               |PATIENTNUMBER|NURSEID|
++---------+----------+-------------------+-------------+-------+
+|B01      |101       |Intensive Care Unit|NULL         |NULL   |
+|B03      |103       |Intensive Care Unit|P01          |N03    |
+|B05      |105       |Intensive Care Unit|NULL         |NULL   |
+|B07      |107       |Intensive Care Unit|P04          |N09    |
+|B09      |109       |Intensive Care Unit|P07          |N02    |
+|B11      |201       |Surgery            |NULL         |NULL   |
+|B13      |203       |Surgery            |P13          |N03    |
+|B16      |207       |Surgery            |NULL         |NULL   |
+|B19      |207       |Surgery            |NULL         |NULL   |
+|B21      |1001      |Rehabilitation     |NULL         |NULL   |
+|B22      |1011      |Rehabilitation     |NULL         |NULL   |
+|B24      |1033      |Rehabilitation     |P09          |N04    |
+|B25      |1045      |Rehabilitation     |NULL         |NULL   |
+|B26      |1203      |Long-Term Care     |NULL         |NULL   |
+|B29      |1233      |Long-Term Care     |NULL         |NULL   |
++---------+----------+-------------------+-------------+-------+
