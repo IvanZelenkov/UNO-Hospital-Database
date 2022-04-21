@@ -1,7 +1,7 @@
 # CSCI 4125/5125 Course Project
 <h2>Project Description<h2/>
 
-# Introduction. 
+# <h3>Introduction<h3/> 
 This project contains a database for a hospital. I will work to develop this database throughout the semester. 
 <br>
 
