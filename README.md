@@ -1,6 +1,6 @@
 # CSCI 4125/5125 Course Project
-Spring 2022
-<h2> Project Description <h2/>
+<h2>Spring 2022<h2/>
+<h2>Project Description<h2/>
 
 # Introduction. 
 This project contains a database for a hospital. I will work to develop this database throughout the semester. 
