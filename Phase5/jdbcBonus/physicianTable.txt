@@ -1,0 +1,22 @@
+PHYSICIAN TABLE WHICH WAS CONSIDERED.
+THERE ARE TWO ADDED PHYSICIANS UNDER IDs D13
+AND D14. THEY SHOULD APPEAR IN THE OUTPUT AS
+NON-REGISTERED PHYSICIANS.
++-----------+--------------+-----------------+
+|PHYSICIANID|PHYSICIANNAME |SPECIALTY        |
++-----------+--------------+-----------------+
+|D01        |Will Smith    |Dermatology      |
+|D02        |Margot Robbie |Anesthesiology   |
+|D03        |Ryan Gosling  |Family Medicine  |
+|D04        |Dwayne Johnson|Surgery          |
+|D05        |Emma Stone    |Internal medicine|
+|D06        |Tom Hanks     |Dermatology      |
+|D07        |Idris Elba    |Anesthesiology   |
+|D08        |Gal Gadot     |Family Medicine  |
+|D09        |Will Ferrell  |Internal medicine|
+|D10        |Chris Evans   |Dermatology      |
+|D11        |Jamie Foxx    |Surgery          |
+|D12        |Tom Hardy     |Anesthesiology   |
+|D13        |Ivan Zelenkov |CSCI             |
+|D14        |Edward Shimoro|CSCI             |
++-----------+--------------+-----------------+
