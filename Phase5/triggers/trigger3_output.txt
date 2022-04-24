@@ -1,0 +1,72 @@
+1) Update on NURSE TABLE
++-------+--------------+------+------------+-------------+
+|NURSEID|NURSENAME     |SALARY|SUPERVISORID|BEDSMONITORED|
++-------+--------------+------+------------+-------------+
+|N01    |John Nicklow  |120000|NULL        |0            |
+|N03    |Chris Summa   |88000 |N01         |2            |
+|N05    |Vassil Roussev|90000 |N01         |0            |
+|N09    |Tamjid Hoque  |88000 |N01         |0            |
+|N02    |James Wagner  |75000 |N05         |2            |
+|N04    |Ben Samuel    |79000 |N03         |2            |
+|N06    |Sam Hoyt      |82000 |N03         |0            |
+|N07    |Ted Holmberg  |81000 |N05         |0            |
+|N08    |Matt Toups    |80000 |N09         |0            |
+|N10    |Hyunguk Yoo   |80000 |N09         |0            |
++-------+--------------+------+------------+-------------+
+
+2) Update on NURSE TABLE
+[2022-04-22 11:13:00] [72000][20101]
+[2022-04-22 11:13:00] 	ORA-20101: Error
+[2022-04-22 11:13:00] 	ORA-06512: at "IDZELENK.UPDATEBED", line 10
+[2022-04-22 11:13:00] 	ORA-04088: error during execution of trigger 'IDZELENK.UPDATEBED'
+[2022-04-22 11:13:00] Position: 7
+
+3) Update on NURSE TABLE
++-------+--------------+------+------------+-------------+
+|NURSEID|NURSENAME     |SALARY|SUPERVISORID|BEDSMONITORED|
++-------+--------------+------+------------+-------------+
+|N01    |John Nicklow  |120000|NULL        |0            |
+|N03    |Chris Summa   |88000 |N01         |2            |
+|N05    |Vassil Roussev|90000 |N01         |1            |
+|N09    |Tamjid Hoque  |88000 |N01         |0            |
+|N02    |James Wagner  |75000 |N05         |1            |
+|N04    |Ben Samuel    |79000 |N03         |2            |
+|N06    |Sam Hoyt      |82000 |N03         |0            |
+|N07    |Ted Holmberg  |81000 |N05         |0            |
+|N08    |Matt Toups    |80000 |N09         |0            |
+|N10    |Hyunguk Yoo   |80000 |N09         |0            |
++-------+--------------+------+------------+-------------+
+
+FINAL BED TABLE
++---------+----------+-------------------+-------------+-------+
+|BEDNUMBER|ROOMNUMBER|UNIT               |PATIENTNUMBER|NURSEID|
++---------+----------+-------------------+-------------+-------+
+|B02      |102       |Intensive Care Unit|NULL         |NULL   |
+|B03      |103       |Intensive Care Unit|P01          |N03    |
+|B04      |104       |Intensive Care Unit|NULL         |NULL   |
+|B05      |105       |Intensive Care Unit|NULL         |NULL   |
+|B06      |106       |Intensive Care Unit|NULL         |NULL   |
+|B01      |101       |Intensive Care Unit|NULL         |N02    |
+|B08      |108       |Intensive Care Unit|NULL         |NULL   |
+|B09      |109       |Intensive Care Unit|P07          |N05    |
+|B10      |110       |Intensive Care Unit|NULL         |NULL   |
+|B11      |201       |Surgery            |NULL         |NULL   |
+|B12      |202       |Surgery            |NULL         |NULL   |
+|B13      |203       |Surgery            |P13          |N03    |
+|B14      |204       |Surgery            |NULL         |NULL   |
+|B15      |206       |Surgery            |P03          |N04    |
+|B16      |207       |Surgery            |NULL         |NULL   |
+|B17      |208       |Surgery            |NULL         |NULL   |
+|B18      |206       |Surgery            |NULL         |NULL   |
+|B19      |207       |Surgery            |NULL         |NULL   |
+|B20      |208       |Surgery            |NULL         |NULL   |
+|B21      |1001      |Rehabilitation     |NULL         |NULL   |
+|B22      |1011      |Rehabilitation     |NULL         |NULL   |
+|B23      |1022      |Rehabilitation     |NULL         |NULL   |
+|B24      |1033      |Rehabilitation     |P09          |N04    |
+|B25      |1045      |Rehabilitation     |NULL         |NULL   |
+|B26      |1203      |Long-Term Care     |NULL         |NULL   |
+|B27      |1212      |Long-Term Care     |NULL         |NULL   |
+|B29      |1233      |Long-Term Care     |NULL         |NULL   |
+|B30      |1250      |Long-Term Care     |NULL         |NULL   |
++---------+----------+-------------------+-------------+-------+
