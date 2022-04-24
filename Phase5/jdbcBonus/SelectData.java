@@ -8,7 +8,7 @@ public class SelectData {
     private static final String SELECT_NURSE = "SELECT * FROM Nurse";
     private static final String SELECT_PHYSICIAN = "SELECT PHYSICIANID FROM Physician";
     private static final String SELECT_TIMECARD = "SELECT PHYSICIANID FROM Timecard";
-        private static final String SELECT_UNREGISTERED_PHYSICIANS = "SELECT PHYSICIANNAME FROM Physician WHERE PHYSICIANID = ?";
+    private static final String SELECT_UNREGISTERED_PHYSICIANS = "SELECT PHYSICIANNAME FROM Physician WHERE PHYSICIANID = ?";
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
