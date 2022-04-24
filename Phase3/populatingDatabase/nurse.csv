@@ -1,0 +1,10 @@
+N01, John Nicklow, 120000, NULL
+N03, Chris Summa, 88000, N01
+N05, Vassil Roussev, 90000, N01
+N09, Tamjid Hoque, 88000, N01
+N02, James Wagner, 75000, N05
+N04, Ben Samuel, 79000, N03
+N06, Sam Hoyt, 82000, N03
+N07, Ted Holmberg, 81000, N05
+N08, Matt Toups, 80000, N09
+N10, Hyunguk Yoo, 80000, N09
