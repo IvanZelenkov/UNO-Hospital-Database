@@ -1,0 +1,30 @@
+B01, 101, Intensive Care Unit, NULL, NULL
+B02, 102, Intensive Care Unit, NULL, NULL
+B03, 103, Intensive Care Unit, P01, N03
+B04, 104, Intensive Care Unit, NULL, NULL
+B05, 105, Intensive Care Unit, NULL, NULL
+B06, 106, Intensive Care Unit, NULL, NULL
+B07, 107, Intensive Care Unit, P04, N09
+B08, 108, Intensive Care Unit, NULL, NULL
+B09, 109, Intensive Care Unit, P07, N02
+B10, 110, Intensive Care Unit, NULL, NULL
+B11, 201, Surgery, NULL, NULL
+B12, 202, Surgery, NULL, NULL
+B13, 203, Surgery, P13, N03
+B14, 204, Surgery, NULL, NULL
+B15, 206, Surgery, P03, N04
+B16, 207, Surgery, NULL, NULL
+B17, 208, Surgery, NULL, NULL
+B18, 206, Surgery, NULL, NULL
+B19, 207, Surgery, NULL, NULL
+B20, 208, Surgery, NULL, NULL
+B21, 1001, Rehabilitation, NULL, NULL
+B22, 1011, Rehabilitation, NULL, NULL
+B23, 1022, Rehabilitation, NULL, NULL
+B24, 1033, Rehabilitation, P09, N04
+B25, 1045, Rehabilitation, NULL, NULL
+B26, 1203, Long-Term Care, NULL, NULL
+B27, 1212, Long-Term Care, NULL, NULL
+B28, 1224, Long-Term Care, P11, N04
+B29, 1233, Long-Term Care, NULL, NULL
+B30, 1250, Long-Term Care, NULL, NULL
