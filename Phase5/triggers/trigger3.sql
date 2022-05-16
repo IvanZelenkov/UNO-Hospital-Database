@@ -1,7 +1,7 @@
 -- Trigger #3 (30 points). Write a trigger that fires when the nurse ID for a bed record is changed
 -- (i.e., an UPDATE). This trigger will update the Nurse.BedsMonitored for both the previous Nurse
 -- and the new Nurse using their respective ID’s. If the existing Nurse.BedsMonitored value for the
--- new Nurse in the update is equal to 3, then the nurse is too busy so your trigger will cancel
+-- new Nurse in the update is equal to 2, then the nurse is too busy so your trigger will cancel
 -- the UPDATE and display an error message stating that the Nurse is too busy (similar to the first trigger).
 CREATE OR REPLACE TRIGGER UpdateBed
     BEFORE UPDATE ON BED
