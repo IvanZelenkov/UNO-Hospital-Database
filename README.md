@@ -18,4 +18,4 @@ There is a total of six phases in this project. Each phase will focus on a diffe
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. PL/SQL, JDBC
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. JDBC & Normalization 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Normalization 
