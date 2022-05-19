@@ -16,6 +16,6 @@ There is a total of six phases in this project. Each phase will focus on a diffe
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Intermediate SQL
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. PL/SQL, JDBC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. PL/SQL and JDBC
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Normalization 
